@@ -2,6 +2,7 @@ package project02;
 
 import java.util.Scanner;
 
+import sangjin.sangjin;
 import yeojin.Pj02_yj;
 
 public class MainClass {
@@ -10,6 +11,7 @@ public class MainClass {
 		Scanner sc = new Scanner(System.in);
 		int select = 0;
 		Pj02_yj yj = new Pj02_yj();
+		sangjin sj = new sangjin();
 		while(true) {
 			System.out.print("1.김여진");
 			System.out.print("2.박상진");
@@ -20,9 +22,9 @@ public class MainClass {
 			select = sc.nextInt();
 			
 			switch (select) {
-			case 1: yj();
+			case 1: yj.print_yj();
 				break;
-			case 2:
+			case 2:sj.display();
 				break;
 			case 3:
 				break;
