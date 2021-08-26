@@ -2,11 +2,14 @@ package project02;
 
 import java.util.Scanner;
 
+import yeojin.Pj02_yj;
+
 public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int select = 0;
+		Pj02_yj yj = new Pj02_yj();
 		while(true) {
 			System.out.print("1.김여진");
 			System.out.print("2.박상진");
@@ -17,7 +20,7 @@ public class MainClass {
 			select = sc.nextInt();
 			
 			switch (select) {
-			case 1:
+			case 1: yj();
 				break;
 			case 2:
 				break;
@@ -31,6 +34,11 @@ public class MainClass {
 				break;
 			}
 		}
+	}
+
+	private static void yj() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
