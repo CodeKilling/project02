@@ -12,13 +12,14 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		TestJieun tj = new TestJieun();
+		
 		int select = 0;
 
 		TeamProject_Psy tPsy = new TeamProject_Psy();
 		TestHyungseok hs = new TestHyungseok();
 		Pj02_yj yj = new Pj02_yj();
 		sangjin sj = new sangjin();
+		TestJieun tj = new TestJieun();
 
 		while(true) {
 			System.out.print("1.김여진");
