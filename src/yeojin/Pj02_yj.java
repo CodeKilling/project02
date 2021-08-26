@@ -9,7 +9,7 @@ public class Pj02_yj {
 	{
 		while(true)
 		{	
-			System.out.println("1.안녕 2.반갑 역시 3.나가기");
+			System.out.println("1.안녕 2.반갑 3.나가기");
 			int num;
 			num = input.nextInt();
 		
