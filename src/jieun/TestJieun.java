@@ -17,10 +17,10 @@ public class TestJieun {
 		}
 	}
 	public void print01() {
-		System.out.println("Hi");
+		System.out.println("저는 짜장밥 먹었어요!");
 	}
 	public void print02() {
-		System.out.println("Bye");
+		System.out.println("다들 맛저 하셨네요ㅎㅎ");
 	}
 	public void exit() {
 		bool = false;
