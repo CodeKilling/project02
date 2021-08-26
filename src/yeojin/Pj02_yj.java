@@ -16,8 +16,11 @@ public class Pj02_yj {
 			switch(num)
 			{
 			case 1 : System.out.println("간짜장");
+				break;
 			case 2 : System.out.println("찹쌀 탕수육");
-			case 3 : break;
+				break;
+			case 3 : 
+				break;
 			}
 		}
 	
