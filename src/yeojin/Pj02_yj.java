@@ -1,11 +1,25 @@
 package yeojin;
 
+import java.util.Scanner;
+
 public class Pj02_yj {
+
+	Scanner input = new Scanner(System.in);	
+	public void display()
+	{
+		while(true)
+		{
+			System.out.println("1.짜장은 역시 2.탕수육은 역시");
+			int num;
+			num = input.nextInt();
+
+			switch(num)
+			{
+			case 1 : System.out.println("간짜장");
+			case 2 : System.out.println("찹쌀 탕수육");
+			case 3 : break;
+			}
+		}
 	
-	public void print_yj()
-	{	System.out.println();
-		System.out.println("다들 저녁 맛있게 드셨나여?? 뭐 드셨나여??");
-		System.out.println("저는 짜장 탕수 먹엇어여.");
-		System.out.println();
 	}
 }
