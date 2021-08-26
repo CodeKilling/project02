@@ -2,10 +2,13 @@ package project02;
 
 import java.util.Scanner;
 
+import jieun.TestJieun;
+
 public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		TestJieun tj = new TestJieun();
 		int select = 0;
 		while(true) {
 			System.out.print("1.김여진");
@@ -24,6 +27,7 @@ public class MainClass {
 			case 3:
 				break;
 			case 4:
+				tj.display();
 				break;
 			case 5:
 				break;
