@@ -31,7 +31,7 @@ public class MainClass {
 			
 			switch (select) {
 			case 1:
-				yj.print_yj();
+				yj.display();
 				break;
 			case 2:
 				sj.display();
