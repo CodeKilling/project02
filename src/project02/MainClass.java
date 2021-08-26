@@ -6,6 +6,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		sangjin sj = new sangjin();
 		int select = 0;
 		while(true) {
 			System.out.print("1.김여진");
@@ -19,7 +20,7 @@ public class MainClass {
 			switch (select) {
 			case 1:
 				break;
-			case 2:
+			case 2:sj.display();
 				break;
 			case 3:
 				break;
